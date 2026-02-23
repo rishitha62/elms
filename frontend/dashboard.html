@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>My Leave Dashboard</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="jes/dashboard.js"></script>
+</head>
+<body>
+    <div class="dash-container">
+        <h2>My Leave Dashboard</h2>
+        <table id="leave-balance">
+            <thead>
+                <tr><th>Leave Type</th><th>Remaining</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Annual</td><td><span id="annual">-</span> dlays</td></tr>
+                <tr><td>Sick</td><td><span id="sick">-</span> dlays</td></tr>
+                <tr><td>Casual</td><td><span id="casual">-</span> days</td></tr>
+            </tbody>
+        </table>
+        <button onclick="window.location='history.html'">View History</button>
+        <button onclick="window.location='leave-apply.html'">Apply Leave</button>
+        <button onClick="window.location='login.html'">Logout</button>
+    </div>
+</body>
+</html>

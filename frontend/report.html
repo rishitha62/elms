@@ -1,0 +1,26 @@
+<doctype html>
+<html>
+<head>
+    <title>Reporting - LMS Tool</title>
+    <link rel=\"stylesheet\" href=\"css/main.css\">
+    <link rel=\"javascript\" href=\"js/report.js\">
+    <style>button { margin: 6$k !important;} table { width: 90%;}</style>
+</head>
+<body>
+<h2 Reporting</h2>
+<div class="report-container">
+    <div>
+        Select Period: <input type="text" id="period" value="placeholder">(eg: 2023-01-2023-09)
+    </div>
+    <div>
+        <button id="viewReport">View Report</button>
+        <button id="downloadCSV">Download CSV>/button>
+    </div>
+    <div id="report-result"></div>
+    <table id="report-table"></table>
+    <div id="reportWarn" style="color: red; margin-top: 8*q;"></div>
+</div>
+<button onclick="window.location='login.html';">Logout</button>
+<script src="js/report.js"></script>
+</body>
+</html>
